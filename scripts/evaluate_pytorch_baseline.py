@@ -9,11 +9,11 @@ We evaluate two configurations to match ESP32:
   1. bitnet_with_emb (ACT=1):  Direct ESP32 comparison target
   2. bitnet_with_emb (ACT=16): Full ACT evaluation (accuracy ceiling)
 
-Usage:
-    python evaluate_pytorch_baseline.py \
-        --checkpoint checkpoints/Sudoku-extreme-1k-aug-1000-ACT-torch/bitnet_sudoku/step_48828 \
-        --config checkpoints/Sudoku-extreme-1k-aug-1000-ACT-torch/bitnet_sudoku/all_config.yaml \
-        --test-subset esp32_trm/test_subset.json \
+Usage (run from trm-bitnet parent or esp32_trm; paths below are relative to esp32_trm):
+    python esp32_trm/scripts/evaluate_pytorch_baseline.py \\
+        --checkpoint ../TinyRecursiveModels/checkpoints/.../step_48828 \\
+        --config ../TinyRecursiveModels/checkpoints/.../all_config.yaml \\
+        --test-subset esp32_trm/test_subset.json \\
         --output-dir esp32_trm/results
 """
 
@@ -277,14 +277,17 @@ def evaluate_config(
 
 
 def main():
+    _root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     parser = argparse.ArgumentParser(description="PyTorch baseline evaluation for TRM accuracy (Sudoku)")
     parser.add_argument("--checkpoint", type=str, required=True,
                         help="Path to PyTorch checkpoint")
     parser.add_argument("--config", type=str, required=True,
                         help="Path to all_config.yaml")
-    parser.add_argument("--test-subset", type=str, default="esp32_trm/test_subset.json",
+    parser.add_argument("--test-subset", type=str,
+                        default=os.path.join(_root, "test_subset.json"),
                         help="Path to test subset JSON")
-    parser.add_argument("--output-dir", type=str, default="esp32_trm/results",
+    parser.add_argument("--output-dir", type=str,
+                        default=os.path.join(_root, "results"),
                         help="Output directory for results")
     parser.add_argument("--device", type=str, default="cpu",
                         help="Device (cpu or cuda)")

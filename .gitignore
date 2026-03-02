@@ -15,3 +15,7 @@ cursor_*.md
 # Accuracy reports (generated)
 accuracy_report*.md
 DEVELOPMENT_LOG.md
+
+# Dissertation generation scripts (not part of released code)
+scripts/dissertation_graphs.py
+scripts/generate_report.py

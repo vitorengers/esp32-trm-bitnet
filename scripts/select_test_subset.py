@@ -18,8 +18,8 @@ For Sudoku:
 This script selects a random subset of puzzles for evaluation.
 All 81 positions are included (no truncation needed).
 
-Usage:
-    python esp32_trm/select_test_subset.py \
+Usage (run from trm-bitnet parent; data-dir points to TinyRecursiveModels):
+    python esp32_trm/scripts/select_test_subset.py \
         --data-dir TinyRecursiveModels/data/sudoku-extreme-1k-aug-1000/test \
         --output esp32_trm/test_subset.json \
         --num-puzzles 200
@@ -34,12 +34,13 @@ import numpy as np
 
 
 def main():
+    _root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     parser = argparse.ArgumentParser(description="Select Sudoku test subset for ESP32 evaluation")
     parser.add_argument("--data-dir", type=str,
                         default="TinyRecursiveModels/data/sudoku-extreme-1k-aug-1000/test",
                         help="Path to test data directory containing .npy files")
     parser.add_argument("--output", type=str,
-                        default="esp32_trm/test_subset.json",
+                        default=os.path.join(_root, "test_subset.json"),
                         help="Output JSON file path")
     parser.add_argument("--num-puzzles", type=int, default=200,
                         help="Number of puzzles to select (0 = all)")

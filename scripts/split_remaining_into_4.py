@@ -9,13 +9,13 @@ partial ESP32 results for each. This script:
   - combines the remaining puzzles and splits them into 4 roughly-equal chunks
   - writes 4 new subset JSON files (a, b, c, d)
 
-Example:
-  python esp32_trm/split_remaining_into_4.py \
-    --subset-a esp32_trm/test_subset_split_a.json \
-    --subset-b esp32_trm/test_subset_split_b.json \
-    --results-a esp32_trm/results/results_esp32_act16_haltable_a.json \
-    --results-b esp32_trm/results/results_esp32_act16_haltable_b.json \
-    --out-dir esp32_trm \
+Example (run from esp32_trm repo root):
+  python scripts/split_remaining_into_4.py \
+    --subset-a test_subset_split_a.json \
+    --subset-b test_subset_split_b.json \
+    --results-a results/results_esp32_act16_haltable_a.json \
+    --results-b results/results_esp32_act16_haltable_b.json \
+    --out-dir . \
     --out-prefix test_subset_remaining_
 """
 
@@ -73,7 +73,8 @@ def main() -> None:
     ap.add_argument("--subset-b", required=True, help="Path to original subset B JSON (100 puzzles)")
     ap.add_argument("--results-a", required=True, help="Path to ESP32 results JSON for subset A")
     ap.add_argument("--results-b", required=True, help="Path to ESP32 results JSON for subset B")
-    ap.add_argument("--out-dir", default="esp32_trm", help="Output directory for new subset JSON files")
+    _root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    ap.add_argument("--out-dir", default=_root, help="Output directory for new subset JSON files")
     ap.add_argument(
         "--out-prefix",
         default="test_subset_remaining_",

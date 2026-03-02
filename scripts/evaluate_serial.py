@@ -21,10 +21,12 @@ IMPORTANT: Close idf.py monitor BEFORE running this script. Only one
 process can read from the serial port at a time.
 
 Usage:
-    python evaluate_serial.py \\
+    python scripts/evaluate_serial.py \\
         --port /dev/ttyACM0 \\
-        --test-subset esp32_trm/test_subset.json \\
-        --output esp32_trm/results/results_esp32.json
+        --test-subset test_subset.json \\
+        --output results/results_esp32.json
+
+Run from the esp32_trm repo root.
 """
 
 import argparse
@@ -281,14 +283,17 @@ def auto_load_and_enter_eval(ser, *, load_timeout_s: int = 180):
 
 
 def main():
+    _root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     parser = argparse.ArgumentParser(description="ESP32 serial evaluation driver (Sudoku)")
     parser.add_argument("--port", type=str, default="/dev/ttyACM0",
                         help="Serial port")
     parser.add_argument("--baud", type=int, default=115200,
                         help="Baud rate")
-    parser.add_argument("--test-subset", type=str, default="esp32_trm/test_subset.json",
+    parser.add_argument("--test-subset", type=str,
+                        default=os.path.join(_root, "test_subset.json"),
                         help="Path to test subset JSON")
-    parser.add_argument("--output", type=str, default="esp32_trm/results/results_esp32.json",
+    parser.add_argument("--output", type=str,
+                        default=os.path.join(_root, "results", "results_esp32.json"),
                         help="Output results JSON")
     parser.add_argument("--resume-output", type=str, default="",
                         help="Resume from an existing results JSON: skip completed example_index entries and append new results")

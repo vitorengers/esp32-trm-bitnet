@@ -7,20 +7,20 @@ Safety:
   - Optionally excludes puzzles already completed in an existing results JSON
     (predictions != None).
 
-Examples:
+Examples (run from esp32_trm repo root):
   # Split subset into 3 chunks
-  python3 esp32_trm/split_subset_into_n.py \
-    --subset esp32_trm/test_subset_remaining_c.json \
+  python3 scripts/split_subset_into_n.py \
+    --subset test_subset_remaining_c.json \
     --num-chunks 3 \
-    --out-dir esp32_trm \
+    --out-dir . \
     --out-prefix test_subset_remaining_c_reassign_
 
   # Split only the remaining puzzles (resume safety)
-  python3 esp32_trm/split_subset_into_n.py \
-    --subset esp32_trm/test_subset_remaining_c.json \
-    --exclude-results esp32_trm/results/results_esp32_act16_haltable_remaining_c.json \
+  python3 scripts/split_subset_into_n.py \
+    --subset test_subset_remaining_c.json \
+    --exclude-results results/results_esp32_act16_haltable_remaining_c.json \
     --num-chunks 3 \
-    --out-dir esp32_trm \
+    --out-dir . \
     --out-prefix test_subset_remaining_c_reassign_
 """
 
@@ -69,7 +69,8 @@ def main() -> None:
         help="Optional results JSON; puzzles with example_index already completed will be excluded.",
     )
     ap.add_argument("--num-chunks", type=int, required=True, help="Number of chunks to produce")
-    ap.add_argument("--out-dir", default="esp32_trm", help="Output directory")
+    _root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    ap.add_argument("--out-dir", default=_root, help="Output directory for subset JSON files")
     ap.add_argument("--out-prefix", required=True, help="Output prefix; will write <prefix>{0..n-1}.json")
     ap.add_argument(
         "--name-style",
