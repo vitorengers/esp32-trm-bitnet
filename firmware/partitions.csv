@@ -1,0 +1,10 @@
+# ESP-IDF Custom Partition Table for TRM Inference
+# Name,   Type, SubType, Offset,  Size,    Flags
+# Notes:
+#   - App partition: 3MB (enough for firmware)
+#   - Model data: 12MB (ternary model ~3MB, room for FP16 later)
+#   - NVS: 24KB for system config
+nvs,      data, nvs,     0x9000,  0x6000,
+phy_init, data, phy,     0xf000,  0x1000,
+factory,  app,  factory, 0x10000, 0x300000,
+model,    data, spiffs,  0x310000,0xCF0000,

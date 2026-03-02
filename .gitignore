@@ -1,0 +1,16 @@
+# ESP-IDF build artifacts
+firmware/build/
+firmware_test/build/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Test subsets (can be regenerated)
+test_subset*.json
+
+# Cursor conversation dumps (not source code)
+cursor_*.md
+
+# Accuracy reports (generated)
+accuracy_report*.md
