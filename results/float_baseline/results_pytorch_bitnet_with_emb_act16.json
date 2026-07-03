@@ -1,9 +1,9 @@
 {
-  "config": "bitnet_with_emb_haltable_max16",
+  "config": "bitnet_with_emb_act16",
   "act_steps": 16,
-  "haltable": true,
-  "halt_rule": "auto",
-  "avg_steps_used": 7.12,
+  "haltable": false,
+  "halt_rule": null,
+  "avg_steps_used": 16.0,
   "num_puzzles": 200,
   "results": [
     {
@@ -94,8 +94,8 @@
         8,
         3
       ],
-      "time_ms": 2329.1,
-      "steps_used": 2
+      "time_ms": 2384.2,
+      "steps_used": 16
     },
     {
       "example_index": 2090,
@@ -185,8 +185,8 @@
         2,
         9
       ],
-      "time_ms": 25.3,
-      "steps_used": 5
+      "time_ms": 86.6,
+      "steps_used": 16
     },
     {
       "example_index": 4826,
@@ -276,8 +276,8 @@
         2,
         4
       ],
-      "time_ms": 23.1,
-      "steps_used": 4
+      "time_ms": 77.5,
+      "steps_used": 16
     },
     {
       "example_index": 6664,
@@ -367,8 +367,8 @@
         7,
         3
       ],
-      "time_ms": 9.0,
-      "steps_used": 2
+      "time_ms": 71.0,
+      "steps_used": 16
     },
     {
       "example_index": 9994,
@@ -458,8 +458,8 @@
         3,
         9
       ],
-      "time_ms": 14.8,
-      "steps_used": 3
+      "time_ms": 71.6,
+      "steps_used": 16
     },
     {
       "example_index": 10074,
@@ -549,8 +549,8 @@
         5,
         3
       ],
-      "time_ms": 10.4,
-      "steps_used": 2
+      "time_ms": 82.4,
+      "steps_used": 16
     },
     {
       "example_index": 10312,
@@ -640,7 +640,7 @@
         9,
         2
       ],
-      "time_ms": 82.0,
+      "time_ms": 69.3,
       "steps_used": 16
     },
     {
@@ -731,8 +731,8 @@
         8,
         4
       ],
-      "time_ms": 9.5,
-      "steps_used": 2
+      "time_ms": 71.3,
+      "steps_used": 16
     },
     {
       "example_index": 16186,
@@ -822,8 +822,8 @@
         6,
         10
       ],
-      "time_ms": 19.2,
-      "steps_used": 4
+      "time_ms": 68.6,
+      "steps_used": 16
     },
     {
       "example_index": 16879,
@@ -913,8 +913,8 @@
         6,
         7
       ],
-      "time_ms": 9.4,
-      "steps_used": 2
+      "time_ms": 69.5,
+      "steps_used": 16
     },
     {
       "example_index": 19319,
@@ -1004,8 +1004,8 @@
         10,
         6
       ],
-      "time_ms": 9.9,
-      "steps_used": 2
+      "time_ms": 77.5,
+      "steps_used": 16
     },
     {
       "example_index": 21223,
@@ -1095,8 +1095,8 @@
         10,
         4
       ],
-      "time_ms": 9.6,
-      "steps_used": 2
+      "time_ms": 89.2,
+      "steps_used": 16
     },
     {
       "example_index": 23656,
@@ -1186,8 +1186,8 @@
         8,
         10
       ],
-      "time_ms": 11.0,
-      "steps_used": 2
+      "time_ms": 74.0,
+      "steps_used": 16
     },
     {
       "example_index": 31500,
@@ -1277,8 +1277,8 @@
         5,
         2
       ],
-      "time_ms": 12.8,
-      "steps_used": 2
+      "time_ms": 80.1,
+      "steps_used": 16
     },
     {
       "example_index": 34042,
@@ -1368,8 +1368,8 @@
         4,
         2
       ],
-      "time_ms": 13.1,
-      "steps_used": 2
+      "time_ms": 70.9,
+      "steps_used": 16
     },
     {
       "example_index": 34557,
@@ -1459,8 +1459,8 @@
         6,
         10
       ],
-      "time_ms": 9.0,
-      "steps_used": 2
+      "time_ms": 76.4,
+      "steps_used": 16
     },
     {
       "example_index": 43956,
@@ -1550,8 +1550,8 @@
         10,
         4
       ],
-      "time_ms": 17.4,
-      "steps_used": 3
+      "time_ms": 78.7,
+      "steps_used": 16
     },
     {
       "example_index": 45513,
@@ -1641,7 +1641,7 @@
         2,
         9
       ],
-      "time_ms": 78.9,
+      "time_ms": 73.6,
       "steps_used": 16
     },
     {
@@ -1732,7 +1732,7 @@
         9,
         3
       ],
-      "time_ms": 79.0,
+      "time_ms": 66.7,
       "steps_used": 16
     },
     {
@@ -1823,8 +1823,8 @@
         9,
         3
       ],
-      "time_ms": 20.4,
-      "steps_used": 4
+      "time_ms": 68.0,
+      "steps_used": 16
     },
     {
       "example_index": 57375,
@@ -1914,7 +1914,7 @@
         7,
         8
       ],
-      "time_ms": 83.1,
+      "time_ms": 71.0,
       "steps_used": 16
     },
     {
@@ -2005,8 +2005,8 @@
         2,
         9
       ],
-      "time_ms": 11.2,
-      "steps_used": 2
+      "time_ms": 72.0,
+      "steps_used": 16
     },
     {
       "example_index": 62768,
@@ -2096,8 +2096,8 @@
         7,
         8
       ],
-      "time_ms": 11.1,
-      "steps_used": 2
+      "time_ms": 66.5,
+      "steps_used": 16
     },
     {
       "example_index": 63751,
@@ -2187,8 +2187,8 @@
         3,
         8
       ],
-      "time_ms": 15.5,
-      "steps_used": 2
+      "time_ms": 68.5,
+      "steps_used": 16
     },
     {
       "example_index": 66758,
@@ -2278,8 +2278,8 @@
         2,
         7
       ],
-      "time_ms": 9.6,
-      "steps_used": 2
+      "time_ms": 67.3,
+      "steps_used": 16
     },
     {
       "example_index": 75970,
@@ -2369,7 +2369,7 @@
         4,
         2
       ],
-      "time_ms": 81.5,
+      "time_ms": 66.7,
       "steps_used": 16
     },
     {
@@ -2460,8 +2460,8 @@
         10,
         6
       ],
-      "time_ms": 34.8,
-      "steps_used": 8
+      "time_ms": 72.2,
+      "steps_used": 16
     },
     {
       "example_index": 78051,
@@ -2551,8 +2551,8 @@
         5,
         2
       ],
-      "time_ms": 9.0,
-      "steps_used": 2
+      "time_ms": 67.2,
+      "steps_used": 16
     },
     {
       "example_index": 78507,
@@ -2642,8 +2642,8 @@
         8,
         10
       ],
-      "time_ms": 20.6,
-      "steps_used": 4
+      "time_ms": 71.2,
+      "steps_used": 16
     },
     {
       "example_index": 78583,
@@ -2733,7 +2733,7 @@
         10,
         7
       ],
-      "time_ms": 81.1,
+      "time_ms": 71.8,
       "steps_used": 16
     },
     {
@@ -2824,8 +2824,8 @@
         2,
         8
       ],
-      "time_ms": 38.8,
-      "steps_used": 7
+      "time_ms": 70.7,
+      "steps_used": 16
     },
     {
       "example_index": 83529,
@@ -2915,8 +2915,8 @@
         10,
         3
       ],
-      "time_ms": 10.3,
-      "steps_used": 2
+      "time_ms": 66.8,
+      "steps_used": 16
     },
     {
       "example_index": 89287,
@@ -3006,8 +3006,8 @@
         6,
         9
       ],
-      "time_ms": 12.0,
-      "steps_used": 2
+      "time_ms": 65.1,
+      "steps_used": 16
     },
     {
       "example_index": 89427,
@@ -3097,8 +3097,8 @@
         4,
         2
       ],
-      "time_ms": 10.9,
-      "steps_used": 2
+      "time_ms": 67.6,
+      "steps_used": 16
     },
     {
       "example_index": 89724,
@@ -3188,7 +3188,7 @@
         8,
         6
       ],
-      "time_ms": 82.1,
+      "time_ms": 68.6,
       "steps_used": 16
     },
     {
@@ -3279,8 +3279,8 @@
         8,
         5
       ],
-      "time_ms": 35.4,
-      "steps_used": 6
+      "time_ms": 67.2,
+      "steps_used": 16
     },
     {
       "example_index": 92355,
@@ -3370,8 +3370,8 @@
         6,
         9
       ],
-      "time_ms": 13.9,
-      "steps_used": 3
+      "time_ms": 70.3,
+      "steps_used": 16
     },
     {
       "example_index": 92501,
@@ -3461,8 +3461,8 @@
         9,
         4
       ],
-      "time_ms": 9.8,
-      "steps_used": 2
+      "time_ms": 69.9,
+      "steps_used": 16
     },
     {
       "example_index": 92997,
@@ -3552,7 +3552,7 @@
         2,
         4
       ],
-      "time_ms": 81.9,
+      "time_ms": 66.3,
       "steps_used": 16
     },
     {
@@ -3643,8 +3643,8 @@
         4,
         5
       ],
-      "time_ms": 51.2,
-      "steps_used": 9
+      "time_ms": 67.1,
+      "steps_used": 16
     },
     {
       "example_index": 102119,
@@ -3734,8 +3734,8 @@
         8,
         10
       ],
-      "time_ms": 9.6,
-      "steps_used": 2
+      "time_ms": 75.7,
+      "steps_used": 16
     },
     {
       "example_index": 105616,
@@ -3825,8 +3825,8 @@
         2,
         8
       ],
-      "time_ms": 21.1,
-      "steps_used": 4
+      "time_ms": 81.1,
+      "steps_used": 16
     },
     {
       "example_index": 105993,
@@ -3916,7 +3916,7 @@
         4,
         7
       ],
-      "time_ms": 76.3,
+      "time_ms": 67.8,
       "steps_used": 16
     },
     {
@@ -4007,8 +4007,8 @@
         9,
         4
       ],
-      "time_ms": 9.1,
-      "steps_used": 2
+      "time_ms": 65.3,
+      "steps_used": 16
     },
     {
       "example_index": 107353,
@@ -4098,8 +4098,8 @@
         7,
         2
       ],
-      "time_ms": 14.9,
-      "steps_used": 3
+      "time_ms": 70.8,
+      "steps_used": 16
     },
     {
       "example_index": 109107,
@@ -4189,7 +4189,7 @@
         5,
         7
       ],
-      "time_ms": 76.3,
+      "time_ms": 68.8,
       "steps_used": 16
     },
     {
@@ -4280,8 +4280,8 @@
         7,
         8
       ],
-      "time_ms": 13.6,
-      "steps_used": 3
+      "time_ms": 72.1,
+      "steps_used": 16
     },
     {
       "example_index": 112154,
@@ -4371,7 +4371,7 @@
         2,
         5
       ],
-      "time_ms": 73.8,
+      "time_ms": 64.9,
       "steps_used": 16
     },
     {
@@ -4462,8 +4462,8 @@
         6,
         10
       ],
-      "time_ms": 9.2,
-      "steps_used": 2
+      "time_ms": 70.8,
+      "steps_used": 16
     },
     {
       "example_index": 113166,
@@ -4553,8 +4553,8 @@
         6,
         2
       ],
-      "time_ms": 62.9,
-      "steps_used": 13
+      "time_ms": 68.5,
+      "steps_used": 16
     },
     {
       "example_index": 114324,
@@ -4644,8 +4644,8 @@
         2,
         7
       ],
-      "time_ms": 15.2,
-      "steps_used": 3
+      "time_ms": 77.5,
+      "steps_used": 16
     },
     {
       "example_index": 116326,
@@ -4735,8 +4735,8 @@
         6,
         3
       ],
-      "time_ms": 16.0,
-      "steps_used": 3
+      "time_ms": 74.9,
+      "steps_used": 16
     },
     {
       "example_index": 117727,
@@ -4826,7 +4826,7 @@
         8,
         5
       ],
-      "time_ms": 74.4,
+      "time_ms": 74.5,
       "steps_used": 16
     },
     {
@@ -4917,7 +4917,7 @@
         5,
         2
       ],
-      "time_ms": 76.8,
+      "time_ms": 71.2,
       "steps_used": 16
     },
     {
@@ -5008,7 +5008,7 @@
         4,
         9
       ],
-      "time_ms": 72.4,
+      "time_ms": 69.8,
       "steps_used": 16
     },
     {
@@ -5099,7 +5099,7 @@
         5,
         2
       ],
-      "time_ms": 78.1,
+      "time_ms": 66.3,
       "steps_used": 16
     },
     {
@@ -5190,8 +5190,8 @@
         8,
         6
       ],
-      "time_ms": 10.0,
-      "steps_used": 2
+      "time_ms": 74.0,
+      "steps_used": 16
     },
     {
       "example_index": 125011,
@@ -5281,8 +5281,8 @@
         6,
         8
       ],
-      "time_ms": 9.4,
-      "steps_used": 2
+      "time_ms": 66.7,
+      "steps_used": 16
     },
     {
       "example_index": 129873,
@@ -5372,8 +5372,8 @@
         10,
         9
       ],
-      "time_ms": 10.6,
-      "steps_used": 2
+      "time_ms": 68.2,
+      "steps_used": 16
     },
     {
       "example_index": 131599,
@@ -5463,7 +5463,7 @@
         5,
         3
       ],
-      "time_ms": 82.8,
+      "time_ms": 66.8,
       "steps_used": 16
     },
     {
@@ -5554,8 +5554,8 @@
         3,
         7
       ],
-      "time_ms": 9.1,
-      "steps_used": 2
+      "time_ms": 67.0,
+      "steps_used": 16
     },
     {
       "example_index": 135739,
@@ -5645,8 +5645,8 @@
         2,
         6
       ],
-      "time_ms": 23.7,
-      "steps_used": 5
+      "time_ms": 65.8,
+      "steps_used": 16
     },
     {
       "example_index": 136759,
@@ -5736,8 +5736,8 @@
         2,
         7
       ],
-      "time_ms": 9.1,
-      "steps_used": 2
+      "time_ms": 75.8,
+      "steps_used": 16
     },
     {
       "example_index": 140772,
@@ -5827,7 +5827,7 @@
         7,
         9
       ],
-      "time_ms": 80.9,
+      "time_ms": 78.4,
       "steps_used": 16
     },
     {
@@ -5918,8 +5918,8 @@
         7,
         3
       ],
-      "time_ms": 9.8,
-      "steps_used": 2
+      "time_ms": 69.9,
+      "steps_used": 16
     },
     {
       "example_index": 145316,
@@ -6009,7 +6009,7 @@
         10,
         4
       ],
-      "time_ms": 75.6,
+      "time_ms": 72.0,
       "steps_used": 16
     },
     {
@@ -6100,8 +6100,8 @@
         4,
         9
       ],
-      "time_ms": 13.6,
-      "steps_used": 3
+      "time_ms": 68.6,
+      "steps_used": 16
     },
     {
       "example_index": 148416,
@@ -6191,8 +6191,8 @@
         6,
         9
       ],
-      "time_ms": 12.4,
-      "steps_used": 2
+      "time_ms": 68.7,
+      "steps_used": 16
     },
     {
       "example_index": 149399,
@@ -6282,8 +6282,8 @@
         6,
         7
       ],
-      "time_ms": 20.1,
-      "steps_used": 4
+      "time_ms": 67.5,
+      "steps_used": 16
     },
     {
       "example_index": 154741,
@@ -6373,7 +6373,7 @@
         9,
         10
       ],
-      "time_ms": 81.8,
+      "time_ms": 65.8,
       "steps_used": 16
     },
     {
@@ -6464,8 +6464,8 @@
         8,
         3
       ],
-      "time_ms": 8.7,
-      "steps_used": 2
+      "time_ms": 65.4,
+      "steps_used": 16
     },
     {
       "example_index": 157187,
@@ -6555,8 +6555,8 @@
         6,
         4
       ],
-      "time_ms": 12.3,
-      "steps_used": 3
+      "time_ms": 68.9,
+      "steps_used": 16
     },
     {
       "example_index": 158135,
@@ -6646,8 +6646,8 @@
         4,
         8
       ],
-      "time_ms": 13.2,
-      "steps_used": 3
+      "time_ms": 69.2,
+      "steps_used": 16
     },
     {
       "example_index": 159036,
@@ -6737,8 +6737,8 @@
         4,
         8
       ],
-      "time_ms": 22.4,
-      "steps_used": 5
+      "time_ms": 64.6,
+      "steps_used": 16
     },
     {
       "example_index": 162520,
@@ -6828,8 +6828,8 @@
         3,
         4
       ],
-      "time_ms": 15.2,
-      "steps_used": 3
+      "time_ms": 65.9,
+      "steps_used": 16
     },
     {
       "example_index": 164165,
@@ -6919,7 +6919,7 @@
         7,
         9
       ],
-      "time_ms": 74.8,
+      "time_ms": 65.5,
       "steps_used": 16
     },
     {
@@ -7010,8 +7010,8 @@
         8,
         9
       ],
-      "time_ms": 22.3,
-      "steps_used": 5
+      "time_ms": 74.3,
+      "steps_used": 16
     },
     {
       "example_index": 164623,
@@ -7101,8 +7101,8 @@
         3,
         5
       ],
-      "time_ms": 9.2,
-      "steps_used": 2
+      "time_ms": 69.2,
+      "steps_used": 16
     },
     {
       "example_index": 166189,
@@ -7192,7 +7192,7 @@
         3,
         7
       ],
-      "time_ms": 73.2,
+      "time_ms": 69.3,
       "steps_used": 16
     },
     {
@@ -7283,8 +7283,8 @@
         3,
         7
       ],
-      "time_ms": 10.2,
-      "steps_used": 2
+      "time_ms": 65.1,
+      "steps_used": 16
     },
     {
       "example_index": 175880,
@@ -7374,7 +7374,7 @@
         7,
         5
       ],
-      "time_ms": 76.2,
+      "time_ms": 67.2,
       "steps_used": 16
     },
     {
@@ -7465,7 +7465,7 @@
         2,
         4
       ],
-      "time_ms": 74.5,
+      "time_ms": 66.3,
       "steps_used": 16
     },
     {
@@ -7556,7 +7556,7 @@
         3,
         5
       ],
-      "time_ms": 72.9,
+      "time_ms": 66.7,
       "steps_used": 16
     },
     {
@@ -7647,8 +7647,8 @@
         2,
         3
       ],
-      "time_ms": 13.8,
-      "steps_used": 3
+      "time_ms": 87.3,
+      "steps_used": 16
     },
     {
       "example_index": 186603,
@@ -7738,8 +7738,8 @@
         4,
         10
       ],
-      "time_ms": 51.6,
-      "steps_used": 8
+      "time_ms": 73.6,
+      "steps_used": 16
     },
     {
       "example_index": 195273,
@@ -7829,7 +7829,7 @@
         6,
         2
       ],
-      "time_ms": 80.8,
+      "time_ms": 69.0,
       "steps_used": 16
     },
     {
@@ -7920,8 +7920,8 @@
         7,
         9
       ],
-      "time_ms": 15.4,
-      "steps_used": 3
+      "time_ms": 66.7,
+      "steps_used": 16
     },
     {
       "example_index": 196077,
@@ -8011,8 +8011,8 @@
         3,
         6
       ],
-      "time_ms": 59.3,
-      "steps_used": 13
+      "time_ms": 69.9,
+      "steps_used": 16
     },
     {
       "example_index": 197528,
@@ -8102,8 +8102,8 @@
         10,
         6
       ],
-      "time_ms": 19.2,
-      "steps_used": 4
+      "time_ms": 67.6,
+      "steps_used": 16
     },
     {
       "example_index": 197585,
@@ -8193,7 +8193,7 @@
         7,
         9
       ],
-      "time_ms": 74.1,
+      "time_ms": 67.8,
       "steps_used": 16
     },
     {
@@ -8284,7 +8284,7 @@
         2,
         5
       ],
-      "time_ms": 73.3,
+      "time_ms": 67.7,
       "steps_used": 16
     },
     {
@@ -8375,7 +8375,7 @@
         3,
         10
       ],
-      "time_ms": 81.2,
+      "time_ms": 66.8,
       "steps_used": 16
     },
     {
@@ -8466,8 +8466,8 @@
         3,
         7
       ],
-      "time_ms": 10.5,
-      "steps_used": 2
+      "time_ms": 70.7,
+      "steps_used": 16
     },
     {
       "example_index": 203469,
@@ -8557,8 +8557,8 @@
         6,
         8
       ],
-      "time_ms": 9.5,
-      "steps_used": 2
+      "time_ms": 86.9,
+      "steps_used": 16
     },
     {
       "example_index": 215417,
@@ -8648,8 +8648,8 @@
         4,
         10
       ],
-      "time_ms": 13.9,
-      "steps_used": 3
+      "time_ms": 79.0,
+      "steps_used": 16
     },
     {
       "example_index": 217673,
@@ -8739,7 +8739,7 @@
         7,
         4
       ],
-      "time_ms": 77.3,
+      "time_ms": 69.0,
       "steps_used": 16
     },
     {
@@ -8830,8 +8830,8 @@
         8,
         4
       ],
-      "time_ms": 9.9,
-      "steps_used": 2
+      "time_ms": 72.3,
+      "steps_used": 16
     },
     {
       "example_index": 219649,
@@ -8921,7 +8921,7 @@
         9,
         7
       ],
-      "time_ms": 73.0,
+      "time_ms": 69.9,
       "steps_used": 16
     },
     {
@@ -9012,8 +9012,8 @@
         5,
         2
       ],
-      "time_ms": 8.5,
-      "steps_used": 2
+      "time_ms": 69.5,
+      "steps_used": 16
     },
     {
       "example_index": 220640,
@@ -9103,8 +9103,8 @@
         6,
         7
       ],
-      "time_ms": 9.0,
-      "steps_used": 2
+      "time_ms": 69.2,
+      "steps_used": 16
     },
     {
       "example_index": 221700,
@@ -9194,8 +9194,8 @@
         4,
         9
       ],
-      "time_ms": 10.4,
-      "steps_used": 2
+      "time_ms": 77.2,
+      "steps_used": 16
     },
     {
       "example_index": 222248,
@@ -9285,8 +9285,8 @@
         4,
         7
       ],
-      "time_ms": 11.0,
-      "steps_used": 2
+      "time_ms": 76.5,
+      "steps_used": 16
     },
     {
       "example_index": 223825,
@@ -9376,8 +9376,8 @@
         7,
         8
       ],
-      "time_ms": 34.7,
-      "steps_used": 7
+      "time_ms": 66.2,
+      "steps_used": 16
     },
     {
       "example_index": 223960,
@@ -9467,8 +9467,8 @@
         6,
         8
       ],
-      "time_ms": 30.7,
-      "steps_used": 4
+      "time_ms": 68.9,
+      "steps_used": 16
     },
     {
       "example_index": 225221,
@@ -9558,8 +9558,8 @@
         2,
         7
       ],
-      "time_ms": 11.3,
-      "steps_used": 2
+      "time_ms": 68.1,
+      "steps_used": 16
     },
     {
       "example_index": 225960,
@@ -9649,8 +9649,8 @@
         2,
         8
       ],
-      "time_ms": 13.7,
-      "steps_used": 2
+      "time_ms": 66.4,
+      "steps_used": 16
     },
     {
       "example_index": 227299,
@@ -9740,8 +9740,8 @@
         4,
         8
       ],
-      "time_ms": 9.7,
-      "steps_used": 2
+      "time_ms": 69.0,
+      "steps_used": 16
     },
     {
       "example_index": 228180,
@@ -9831,8 +9831,8 @@
         7,
         4
       ],
-      "time_ms": 11.7,
-      "steps_used": 2
+      "time_ms": 70.7,
+      "steps_used": 16
     },
     {
       "example_index": 230454,
@@ -9922,8 +9922,8 @@
         3,
         8
       ],
-      "time_ms": 9.6,
-      "steps_used": 2
+      "time_ms": 75.0,
+      "steps_used": 16
     },
     {
       "example_index": 233452,
@@ -10013,7 +10013,7 @@
         9,
         2
       ],
-      "time_ms": 75.0,
+      "time_ms": 68.3,
       "steps_used": 16
     },
     {
@@ -10104,7 +10104,7 @@
         6,
         5
       ],
-      "time_ms": 72.9,
+      "time_ms": 66.2,
       "steps_used": 16
     },
     {
@@ -10195,7 +10195,7 @@
         2,
         3
       ],
-      "time_ms": 73.9,
+      "time_ms": 67.2,
       "steps_used": 16
     },
     {
@@ -10286,8 +10286,8 @@
         10,
         7
       ],
-      "time_ms": 12.9,
-      "steps_used": 3
+      "time_ms": 66.5,
+      "steps_used": 16
     },
     {
       "example_index": 237158,
@@ -10377,7 +10377,7 @@
         10,
         2
       ],
-      "time_ms": 73.5,
+      "time_ms": 74.9,
       "steps_used": 16
     },
     {
@@ -10468,8 +10468,8 @@
         3,
         10
       ],
-      "time_ms": 27.2,
-      "steps_used": 6
+      "time_ms": 72.9,
+      "steps_used": 16
     },
     {
       "example_index": 241241,
@@ -10559,7 +10559,7 @@
         4,
         2
       ],
-      "time_ms": 75.6,
+      "time_ms": 70.2,
       "steps_used": 16
     },
     {
@@ -10650,8 +10650,8 @@
         5,
         7
       ],
-      "time_ms": 18.2,
-      "steps_used": 4
+      "time_ms": 71.3,
+      "steps_used": 16
     },
     {
       "example_index": 245826,
@@ -10741,8 +10741,8 @@
         6,
         2
       ],
-      "time_ms": 8.9,
-      "steps_used": 2
+      "time_ms": 67.8,
+      "steps_used": 16
     },
     {
       "example_index": 252502,
@@ -10832,7 +10832,7 @@
         6,
         4
       ],
-      "time_ms": 74.7,
+      "time_ms": 73.4,
       "steps_used": 16
     },
     {
@@ -10923,8 +10923,8 @@
         6,
         8
       ],
-      "time_ms": 31.5,
-      "steps_used": 7
+      "time_ms": 76.3,
+      "steps_used": 16
     },
     {
       "example_index": 256871,
@@ -11014,8 +11014,8 @@
         5,
         2
       ],
-      "time_ms": 8.8,
-      "steps_used": 2
+      "time_ms": 66.4,
+      "steps_used": 16
     },
     {
       "example_index": 257689,
@@ -11105,7 +11105,7 @@
         9,
         3
       ],
-      "time_ms": 74.6,
+      "time_ms": 67.2,
       "steps_used": 16
     },
     {
@@ -11196,8 +11196,8 @@
         8,
         6
       ],
-      "time_ms": 14.5,
-      "steps_used": 3
+      "time_ms": 68.4,
+      "steps_used": 16
     },
     {
       "example_index": 261625,
@@ -11287,8 +11287,8 @@
         4,
         2
       ],
-      "time_ms": 66.6,
-      "steps_used": 15
+      "time_ms": 69.4,
+      "steps_used": 16
     },
     {
       "example_index": 264701,
@@ -11378,8 +11378,8 @@
         10,
         6
       ],
-      "time_ms": 13.5,
-      "steps_used": 3
+      "time_ms": 72.5,
+      "steps_used": 16
     },
     {
       "example_index": 265265,
@@ -11469,7 +11469,7 @@
         4,
         2
       ],
-      "time_ms": 72.7,
+      "time_ms": 66.3,
       "steps_used": 16
     },
     {
@@ -11560,8 +11560,8 @@
         10,
         6
       ],
-      "time_ms": 54.8,
-      "steps_used": 12
+      "time_ms": 70.2,
+      "steps_used": 16
     },
     {
       "example_index": 273396,
@@ -11651,7 +11651,7 @@
         9,
         8
       ],
-      "time_ms": 73.4,
+      "time_ms": 70.0,
       "steps_used": 16
     },
     {
@@ -11742,7 +11742,7 @@
         3,
         9
       ],
-      "time_ms": 72.1,
+      "time_ms": 71.4,
       "steps_used": 16
     },
     {
@@ -11833,8 +11833,8 @@
         10,
         7
       ],
-      "time_ms": 36.3,
-      "steps_used": 8
+      "time_ms": 68.8,
+      "steps_used": 16
     },
     {
       "example_index": 290810,
@@ -11924,7 +11924,7 @@
         3,
         9
       ],
-      "time_ms": 72.4,
+      "time_ms": 74.0,
       "steps_used": 16
     },
     {
@@ -12015,8 +12015,8 @@
         8,
         6
       ],
-      "time_ms": 9.2,
-      "steps_used": 2
+      "time_ms": 70.7,
+      "steps_used": 16
     },
     {
       "example_index": 295861,
@@ -12106,8 +12106,8 @@
         8,
         7
       ],
-      "time_ms": 9.5,
-      "steps_used": 2
+      "time_ms": 67.4,
+      "steps_used": 16
     },
     {
       "example_index": 296761,
@@ -12197,7 +12197,7 @@
         3,
         4
       ],
-      "time_ms": 74.1,
+      "time_ms": 67.3,
       "steps_used": 16
     },
     {
@@ -12288,7 +12288,7 @@
         8,
         5
       ],
-      "time_ms": 73.1,
+      "time_ms": 68.0,
       "steps_used": 16
     },
     {
@@ -12379,8 +12379,8 @@
         10,
         2
       ],
-      "time_ms": 49.9,
-      "steps_used": 11
+      "time_ms": 68.9,
+      "steps_used": 16
     },
     {
       "example_index": 304950,
@@ -12470,7 +12470,7 @@
         8,
         7
       ],
-      "time_ms": 76.0,
+      "time_ms": 73.2,
       "steps_used": 16
     },
     {
@@ -12561,8 +12561,8 @@
         9,
         4
       ],
-      "time_ms": 14.9,
-      "steps_used": 3
+      "time_ms": 70.3,
+      "steps_used": 16
     },
     {
       "example_index": 306302,
@@ -12652,8 +12652,8 @@
         10,
         7
       ],
-      "time_ms": 39.1,
-      "steps_used": 8
+      "time_ms": 68.8,
+      "steps_used": 16
     },
     {
       "example_index": 311160,
@@ -12743,8 +12743,8 @@
         3,
         7
       ],
-      "time_ms": 10.1,
-      "steps_used": 2
+      "time_ms": 71.6,
+      "steps_used": 16
     },
     {
       "example_index": 311359,
@@ -12834,7 +12834,7 @@
         5,
         7
       ],
-      "time_ms": 75.2,
+      "time_ms": 68.5,
       "steps_used": 16
     },
     {
@@ -12925,8 +12925,8 @@
         7,
         10
       ],
-      "time_ms": 4.8,
-      "steps_used": 1
+      "time_ms": 67.7,
+      "steps_used": 16
     },
     {
       "example_index": 311677,
@@ -13016,7 +13016,7 @@
         3,
         9
       ],
-      "time_ms": 76.8,
+      "time_ms": 67.4,
       "steps_used": 16
     },
     {
@@ -13107,8 +13107,8 @@
         3,
         4
       ],
-      "time_ms": 9.2,
-      "steps_used": 2
+      "time_ms": 68.0,
+      "steps_used": 16
     },
     {
       "example_index": 316700,
@@ -13198,7 +13198,7 @@
         8,
         2
       ],
-      "time_ms": 76.7,
+      "time_ms": 71.9,
       "steps_used": 16
     },
     {
@@ -13289,7 +13289,7 @@
         2,
         10
       ],
-      "time_ms": 73.1,
+      "time_ms": 69.3,
       "steps_used": 16
     },
     {
@@ -13380,8 +13380,8 @@
         2,
         8
       ],
-      "time_ms": 8.6,
-      "steps_used": 2
+      "time_ms": 71.3,
+      "steps_used": 16
     },
     {
       "example_index": 318309,
@@ -13471,7 +13471,7 @@
         8,
         9
       ],
-      "time_ms": 74.0,
+      "time_ms": 68.6,
       "steps_used": 16
     },
     {
@@ -13562,8 +13562,8 @@
         7,
         6
       ],
-      "time_ms": 11.3,
-      "steps_used": 2
+      "time_ms": 66.6,
+      "steps_used": 16
     },
     {
       "example_index": 324813,
@@ -13653,8 +13653,8 @@
         7,
         10
       ],
-      "time_ms": 9.5,
-      "steps_used": 2
+      "time_ms": 69.0,
+      "steps_used": 16
     },
     {
       "example_index": 329159,
@@ -13744,8 +13744,8 @@
         8,
         5
       ],
-      "time_ms": 41.3,
-      "steps_used": 8
+      "time_ms": 79.9,
+      "steps_used": 16
     },
     {
       "example_index": 329603,
@@ -13758,85 +13758,85 @@
         7,
         9,
         10,
-        3,
         4,
+        3,
         6,
         2,
         4,
         9,
         2,
         7,
+        3,
         6,
         5,
-        3,
         10,
         8,
         10,
         6,
         3,
-        4,
+        5,
         8,
         2,
-        5,
+        4,
         7,
         9,
         7,
-        3,
-        10,
-        5,
-        2,
-        6,
-        9,
-        8,
-        4,
-        2,
-        8,
-        9,
-        3,
-        4,
-        7,
-        6,
-        5,
-        10,
-        6,
-        4,
-        5,
-        10,
-        9,
-        8,
-        2,
-        3,
-        7,
-        5,
-        2,
-        4,
-        8,
-        3,
-        9,
-        7,
-        10,
-        6,
         3,
         10,
         6,
         2,
-        7,
-        4,
-        8,
-        9,
         5,
         9,
-        7,
         8,
+        4,
+        2,
+        8,
+        9,
+        3,
+        4,
+        7,
         6,
         5,
         10,
+        6,
         4,
+        5,
+        10,
+        9,
+        8,
+        2,
+        3,
+        7,
+        5,
+        2,
+        4,
+        8,
+        7,
+        3,
+        10,
+        9,
+        6,
+        3,
+        10,
+        8,
+        2,
+        6,
+        9,
+        7,
+        4,
+        5,
+        9,
+        7,
+        6,
+        4,
+        5,
+        10,
+        8,
         2,
         3
       ],
-      "time_ms": 10.2,
-      "steps_used": 2
+      "time_ms": 74.9,
+      "steps_used": 16
     },
     {
       "example_index": 330333,
@@ -13926,7 +13926,7 @@
         9,
         6
       ],
-      "time_ms": 82.6,
+      "time_ms": 68.5,
       "steps_used": 16
     },
     {
@@ -14017,8 +14017,8 @@
         5,
         9
       ],
-      "time_ms": 9.5,
-      "steps_used": 2
+      "time_ms": 66.8,
+      "steps_used": 16
     },
     {
       "example_index": 334587,
@@ -14108,7 +14108,7 @@
         4,
         6
       ],
-      "time_ms": 77.1,
+      "time_ms": 74.3,
       "steps_used": 16
     },
     {
@@ -14199,8 +14199,8 @@
         7,
         10
       ],
-      "time_ms": 4.6,
-      "steps_used": 1
+      "time_ms": 68.5,
+      "steps_used": 16
     },
     {
       "example_index": 337388,
@@ -14290,8 +14290,8 @@
         2,
         10
       ],
-      "time_ms": 23.1,
-      "steps_used": 5
+      "time_ms": 70.2,
+      "steps_used": 16
     },
     {
       "example_index": 337692,
@@ -14381,8 +14381,8 @@
         5,
         9
       ],
-      "time_ms": 9.6,
-      "steps_used": 2
+      "time_ms": 72.7,
+      "steps_used": 16
     },
     {
       "example_index": 339118,
@@ -14472,8 +14472,8 @@
         8,
         5
       ],
-      "time_ms": 10.0,
-      "steps_used": 2
+      "time_ms": 69.9,
+      "steps_used": 16
     },
     {
       "example_index": 345694,
@@ -14563,8 +14563,8 @@
         10,
         6
       ],
-      "time_ms": 9.2,
-      "steps_used": 2
+      "time_ms": 66.7,
+      "steps_used": 16
     },
     {
       "example_index": 346072,
@@ -14654,8 +14654,8 @@
         8,
         6
       ],
-      "time_ms": 9.6,
-      "steps_used": 2
+      "time_ms": 66.3,
+      "steps_used": 16
     },
     {
       "example_index": 350014,
@@ -14745,8 +14745,8 @@
         5,
         2
       ],
-      "time_ms": 8.8,
-      "steps_used": 2
+      "time_ms": 68.2,
+      "steps_used": 16
     },
     {
       "example_index": 353044,
@@ -14836,8 +14836,8 @@
         9,
         8
       ],
-      "time_ms": 9.5,
-      "steps_used": 2
+      "time_ms": 66.6,
+      "steps_used": 16
     },
     {
       "example_index": 354985,
@@ -14927,8 +14927,8 @@
         4,
         6
       ],
-      "time_ms": 9.3,
-      "steps_used": 2
+      "time_ms": 72.2,
+      "steps_used": 16
     },
     {
       "example_index": 356478,
@@ -15018,8 +15018,8 @@
         2,
         5
       ],
-      "time_ms": 14.1,
-      "steps_used": 3
+      "time_ms": 66.2,
+      "steps_used": 16
     },
     {
       "example_index": 356895,
@@ -15109,8 +15109,8 @@
         5,
         9
       ],
-      "time_ms": 43.0,
-      "steps_used": 9
+      "time_ms": 68.0,
+      "steps_used": 16
     },
     {
       "example_index": 360877,
@@ -15200,8 +15200,8 @@
         2,
         4
       ],
-      "time_ms": 13.6,
-      "steps_used": 3
+      "time_ms": 67.4,
+      "steps_used": 16
     },
     {
       "example_index": 362789,
@@ -15291,7 +15291,7 @@
         6,
         8
       ],
-      "time_ms": 75.7,
+      "time_ms": 68.0,
       "steps_used": 16
     },
     {
@@ -15382,7 +15382,7 @@
         2,
         4
       ],
-      "time_ms": 75.4,
+      "time_ms": 68.9,
       "steps_used": 16
     },
     {
@@ -15473,7 +15473,7 @@
         2,
         3
       ],
-      "time_ms": 76.6,
+      "time_ms": 72.2,
       "steps_used": 16
     },
     {
@@ -15564,8 +15564,8 @@
         7,
         2
       ],
-      "time_ms": 9.8,
-      "steps_used": 2
+      "time_ms": 67.3,
+      "steps_used": 16
     },
     {
       "example_index": 367868,
@@ -15655,8 +15655,8 @@
         7,
         8
       ],
-      "time_ms": 42.1,
-      "steps_used": 8
+      "time_ms": 68.5,
+      "steps_used": 16
     },
     {
       "example_index": 369212,
@@ -15746,8 +15746,8 @@
         7,
         2
       ],
-      "time_ms": 16.0,
-      "steps_used": 3
+      "time_ms": 80.7,
+      "steps_used": 16
     },
     {
       "example_index": 371422,
@@ -15837,7 +15837,7 @@
         8,
         10
       ],
-      "time_ms": 77.3,
+      "time_ms": 84.1,
       "steps_used": 16
     },
     {
@@ -15928,8 +15928,8 @@
         2,
         6
       ],
-      "time_ms": 9.5,
-      "steps_used": 2
+      "time_ms": 74.9,
+      "steps_used": 16
     },
     {
       "example_index": 374815,
@@ -16019,8 +16019,8 @@
         6,
         5
       ],
-      "time_ms": 11.2,
-      "steps_used": 2
+      "time_ms": 77.4,
+      "steps_used": 16
     },
     {
       "example_index": 376173,
@@ -16110,8 +16110,8 @@
         10,
         2
       ],
-      "time_ms": 10.0,
-      "steps_used": 2
+      "time_ms": 70.6,
+      "steps_used": 16
     },
     {
       "example_index": 376714,
@@ -16201,8 +16201,8 @@
         3,
         4
       ],
-      "time_ms": 11.3,
-      "steps_used": 2
+      "time_ms": 107.5,
+      "steps_used": 16
     },
     {
       "example_index": 377983,
@@ -16292,8 +16292,8 @@
         4,
         10
       ],
-      "time_ms": 14.9,
-      "steps_used": 3
+      "time_ms": 79.6,
+      "steps_used": 16
     },
     {
       "example_index": 378382,
@@ -16383,8 +16383,8 @@
         2,
         4
       ],
-      "time_ms": 5.5,
-      "steps_used": 1
+      "time_ms": 75.1,
+      "steps_used": 16
     },
     {
       "example_index": 382370,
@@ -16474,8 +16474,8 @@
         8,
         10
       ],
-      "time_ms": 17.5,
-      "steps_used": 3
+      "time_ms": 74.8,
+      "steps_used": 16
     },
     {
       "example_index": 384114,
@@ -16565,8 +16565,8 @@
         7,
         4
       ],
-      "time_ms": 9.7,
-      "steps_used": 2
+      "time_ms": 101.6,
+      "steps_used": 16
     },
     {
       "example_index": 385084,
@@ -16656,8 +16656,8 @@
         3,
         4
       ],
-      "time_ms": 9.6,
-      "steps_used": 2
+      "time_ms": 79.0,
+      "steps_used": 16
     },
     {
       "example_index": 385979,
@@ -16747,7 +16747,7 @@
         3,
         5
       ],
-      "time_ms": 74.2,
+      "time_ms": 102.5,
       "steps_used": 16
     },
     {
@@ -16838,8 +16838,8 @@
         9,
         5
       ],
-      "time_ms": 29.1,
-      "steps_used": 6
+      "time_ms": 92.3,
+      "steps_used": 16
     },
     {
       "example_index": 390671,
@@ -16929,8 +16929,8 @@
         10,
         8
       ],
-      "time_ms": 9.8,
-      "steps_used": 2
+      "time_ms": 75.3,
+      "steps_used": 16
     },
     {
       "example_index": 390827,
@@ -17020,8 +17020,8 @@
         6,
         3
       ],
-      "time_ms": 9.3,
-      "steps_used": 2
+      "time_ms": 86.6,
+      "steps_used": 16
     },
     {
       "example_index": 391655,
@@ -17111,8 +17111,8 @@
         7,
         5
       ],
-      "time_ms": 10.3,
-      "steps_used": 2
+      "time_ms": 97.0,
+      "steps_used": 16
     },
     {
       "example_index": 393025,
@@ -17202,7 +17202,7 @@
         5,
         7
       ],
-      "time_ms": 73.5,
+      "time_ms": 76.3,
       "steps_used": 16
     },
     {
@@ -17293,8 +17293,8 @@
         4,
         8
       ],
-      "time_ms": 24.0,
-      "steps_used": 5
+      "time_ms": 88.0,
+      "steps_used": 16
     },
     {
       "example_index": 399455,
@@ -17384,8 +17384,8 @@
         6,
         7
       ],
-      "time_ms": 8.9,
-      "steps_used": 2
+      "time_ms": 117.3,
+      "steps_used": 16
     },
     {
       "example_index": 401019,
@@ -17475,8 +17475,8 @@
         10,
         7
       ],
-      "time_ms": 9.3,
-      "steps_used": 2
+      "time_ms": 103.0,
+      "steps_used": 16
     },
     {
       "example_index": 401692,
@@ -17566,7 +17566,7 @@
         2,
         3
       ],
-      "time_ms": 76.5,
+      "time_ms": 79.0,
       "steps_used": 16
     },
     {
@@ -17657,7 +17657,7 @@
         3,
         9
       ],
-      "time_ms": 80.8,
+      "time_ms": 70.9,
       "steps_used": 16
     },
     {
@@ -17748,8 +17748,8 @@
         2,
         5
       ],
-      "time_ms": 9.4,
-      "steps_used": 2
+      "time_ms": 75.2,
+      "steps_used": 16
     },
     {
       "example_index": 410164,
@@ -17839,8 +17839,8 @@
         4,
         6
       ],
-      "time_ms": 14.5,
-      "steps_used": 3
+      "time_ms": 75.0,
+      "steps_used": 16
     },
     {
       "example_index": 412170,
@@ -17930,8 +17930,8 @@
         6,
         2
       ],
-      "time_ms": 56.2,
-      "steps_used": 12
+      "time_ms": 73.6,
+      "steps_used": 16
     },
     {
       "example_index": 415323,
@@ -18021,8 +18021,8 @@
         10,
         3
       ],
-      "time_ms": 9.2,
-      "steps_used": 2
+      "time_ms": 71.7,
+      "steps_used": 16
     },
     {
       "example_index": 421444,
@@ -18112,8 +18112,8 @@
         8,
         3
       ],
-      "time_ms": 14.0,
-      "steps_used": 3
+      "time_ms": 75.4,
+      "steps_used": 16
     },
     {
       "example_index": 422140,
@@ -18203,8 +18203,8 @@
         6,
         7
       ],
-      "time_ms": 4.9,
-      "steps_used": 1
+      "time_ms": 82.7,
+      "steps_used": 16
     }
   ]
 }
