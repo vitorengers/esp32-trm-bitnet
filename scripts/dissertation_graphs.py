@@ -104,7 +104,7 @@ def compute_puzzle_metrics(predictions, label_tokens):
 # Graph 1: baseline comparison (full dataset, fixed 16 steps)
 def graph_baseline_comparison(output_dir):
     models = ["Paper TRM-Att\n(reported)", "Float baseline\n(reproduced)", "bf16-round\n(ternary)", "bf16-trunc\n(ternary)"]
-    exact_match = [74.7, 74.92, 76.68, 74.42]
+    exact_match = [74.7, 74.97, 75.48, 74.87]
 
     fig, ax = plt.subplots(figsize=(8, 4.5))
     x = np.arange(len(models))
@@ -136,8 +136,8 @@ def graph_haltable_vs_fixed(output_dir):
         "bf16-round\nFixed 16", "bf16-round\nHaltable",
         "bf16-trunc\nFixed 16", "bf16-trunc\nHaltable",
     ]
-    exact_match = [74.92, 74.62, 76.68, 77.22, 74.42, 72.81]
-    avg_steps = [16.0, 6.57, 16.0, 6.03, 16.0, 6.35]
+    exact_match = [74.97, 74.66, 75.48, 77.19, 74.87, 73.18]
+    avg_steps = [16.0, 6.57, 16.0, 6.06, 16.0, 6.33]
 
     fig, ax = plt.subplots(figsize=(10, 5))
     x = np.arange(len(categories))
@@ -416,9 +416,8 @@ def graph_round_vs_trunc_summary(output_dir):
         "PC 200\nHaltable",
         "ESP32 200\nHaltable",
     ]
-    round_vals = [76.68, 77.22, 73.50, 72.50]
-    # None = not measured yet
-    trunc_vals = [74.42, 72.81, 67.50, None]
+    round_vals = [75.48, 77.19, 73.50, 72.50]
+    trunc_vals = [74.87, 73.18, 67.50, 70.00]
 
     fig, ax = plt.subplots(figsize=(9, 5))
     x = np.arange(len(scenarios))
@@ -442,8 +441,8 @@ def graph_round_vs_trunc_summary(output_dir):
     for i in range(len(scenarios)):
         if trunc_vals[i] is not None:
             gap = round_vals[i] - trunc_vals[i]
-            mid_y = (round_vals[i] + trunc_vals[i]) / 2
-            ax.annotate(f"Δ {gap:.2f} pp", xy=(x[i] + width / 2 + 0.05, mid_y),
+            y_annot = max(round_vals[i], trunc_vals[i]) + 3.4
+            ax.annotate(f"Δ {gap:.2f} pp", xy=(x[i], y_annot), ha="center",
                         fontsize=8, color="gray", style="italic")
 
     ax.set_ylabel("Exact Match Accuracy (%)")
@@ -469,8 +468,8 @@ def graph_computation_savings(output_dir):
         "bf16-round\nFixed 16", "bf16-round\nHaltable",
         "bf16-trunc\nFixed 16", "bf16-trunc\nHaltable",
     ]
-    exact_match = [74.92, 74.62, 76.68, 77.22, 74.42, 72.81]
-    avg_steps = [16.0, 6.57, 16.0, 6.03, 16.0, 6.35]
+    exact_match = [74.97, 74.66, 75.48, 77.19, 74.87, 73.18]
+    avg_steps = [16.0, 6.57, 16.0, 6.06, 16.0, 6.33]
     colors = ["#9467bd", "#9467bd", COLORS["round"], COLORS["round"], COLORS["trunc"], COLORS["trunc"]]
     alphas = [1.0, 0.65, 1.0, 0.65, 1.0, 0.65]
 
